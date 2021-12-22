@@ -1,0 +1,18 @@
+package orrg.comstudy21.homework;
+
+public class Homework01 {
+	public static void println(String s) {
+		System.out.println(s);
+	}
+	
+	public static void main(String[] args) {
+		int price = 240;
+		int money = 10000;
+		int carry = money - price;
+		
+		System.out.println("거스름 돈 => " + carry);
+		int ea5000 = carry / 5000;
+		println("5천원 " + ea5000 + "개");
+	}
+
+}

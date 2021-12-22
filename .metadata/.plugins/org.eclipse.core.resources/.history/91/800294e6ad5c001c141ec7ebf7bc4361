@@ -1,0 +1,22 @@
+package org.comstudy21.exam01;
+
+import java.util.Scanner;
+
+public class Day11Ex01 {
+	
+	public static Scanner scan = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		// 정수 3개를 입력 받아서 큰수, 중간, 작은수를 판별하는 프로그램.
+		int a, b, c;
+		int max=0, mid=0, min=0;
+		
+		System.out.print("정수 3개 입력 >>> ");
+		a = scan.nextInt();
+		b = scan.nextInt();
+		c = scan.nextInt();
+		
+		System.out.printf("%d, %d, %d\n", a, b, c);
+	}
+
+}
